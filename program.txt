@@ -11,3 +11,7 @@ void show()
 	string name = "小叮当";
 	metho(name);
 }
+void set()
+{
+	print(nnnn);
+}
