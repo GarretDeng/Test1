@@ -2,7 +2,12 @@ int main()
 {
 	printf("hello word!");
 }
-void metho()
+void metho(string name)
 {
-	printf("my name is ...");
+	printf("my name is " + name);
+}
+void show()
+{
+	string name = "小叮当";
+	metho(name);
 }
